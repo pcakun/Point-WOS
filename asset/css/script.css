@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "poppins";
+}
+.carousel-image {
+  height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.small-carousel-image {
+  height: 195px;
+  object-fit: cover;
+  width: 100%;
+}
+/* css untuk mengatur brand */
+.brand-logo {
+  width: 120px;
+  height: 60px;
+  object-fit: contain;
+  background-color: #ffffff;
+}
+
+.brand-container {
+  width: 140px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-outline-custom {
+  color: #28809a;
+  border: 1px solid #28809a;
+  background-color: transparent;
+}
+.btn-outline-custom:hover {
+  background-color: #28809a;
+  color: #ffffff;
+}
+/* css Login */
+.login-box {
+  background-color: #28809a;
+  padding: 30px;
+  border-radius: 15px;
+  color: #ffffff;
+}
+.login-box input::placeholder {
+  color: #8D9192;
+}
+.login-btn,
+.forgot-btn {
+  width: 100%;
+  margin-top: 10px;
+}
+.login-btn {
+  background-color: #ffffff;
+  color: #28809a;
+  font-weight: bold;
+}
+.forgot-btn {
+  background-color: #ffffff;
+  color: #28809a;
+  font-weight: bold;
+}
+
+/* css Daftar */
+.daftar-box {
+  background-color: #ededed;
+  padding: 30px;
+  border: #28809a;
+  border-radius: 15px;
+  color: #ffffff;
+}
+.daftar-box input::placeholder {
+  color: #8D9192;
+}
+.daftar-btn,
+.alter-btn {
+  width: 100%;
+  margin-top: 10px;
+}
+.daftar-btn {
+  background-color: #28809a;
+  color: #ffffff;
+  font-weight: bold;
+}
+.alter-btn {
+  background-color: #28809a;
+  color: #ffffff;
+  font-weight: bold;
+}

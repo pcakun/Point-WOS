@@ -1,0 +1,54 @@
+body {
+      background-color: #f0f0f0;
+    }
+
+    .sidebar {
+      height: 100vh;
+      background-color: #28809a;
+      color: white;
+      padding: 20px;
+    }
+
+    .sidebar a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .sidebar a:hover {
+      text-decoration: underline;
+    }
+
+    .content {
+      background-color: #ffffff;
+      padding: 30px;
+    }
+
+    .top-bar {
+      background-color: #28809a;
+      color: white;
+      padding: 15px 20px;
+    }
+
+    .top-bar .icon {
+      font-size: 20px;
+      margin-left: 15px;
+      color: white;
+    }
+
+    .card-box {
+      background-color: #f8f8f8;
+      border: none;
+      padding: 25px;
+      text-align: center;
+    }
+
+    .card-box i {
+      font-size: 24px;
+    }
+
+    .table-responsive {
+      margin-top: 20px;
+    }
